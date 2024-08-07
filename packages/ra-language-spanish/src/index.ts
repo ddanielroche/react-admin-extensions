@@ -50,12 +50,12 @@ const spanishMessages: Required<TranslationMessages> = {
     page: {
       create: "Crear %{name}",
       dashboard: "Tablero",
-      edit: "%{name} #%{id}",
+      edit: "%{name} %{recordRepresentation}",
       error: "Algo salió mal",
       list: "Lista de %{name}",
       loading: "Cargando",
       not_found: "No encontrado",
-      show: "%{name} #%{id}",
+      show: "%{name} %{recordRepresentation}",
       empty: "Sin %{name} todavía.",
       invite: "¿Quiere agregar una?",
     },
@@ -169,6 +169,7 @@ const spanishMessages: Required<TranslationMessages> = {
       email: "Debe ser un correo electrónico válido",
       oneOf: "Debe ser uno de: %{options}",
       regex: "Debe coincidir con un formato específico (regexp): %{pattern}",
+      unique: 'Debe ser único',
     },
     saved_queries:{
       label: "Consultas guardadas",
