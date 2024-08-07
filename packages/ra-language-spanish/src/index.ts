@@ -169,7 +169,7 @@ const spanishMessages: Required<TranslationMessages> = {
       email: "Debe ser un correo electrónico válido",
       oneOf: "Debe ser uno de: %{options}",
       regex: "Debe coincidir con un formato específico (regexp): %{pattern}",
-      unique: 'Debe ser único',
+      unique: "Debe ser único",
     },
     saved_queries:{
       label: "Consultas guardadas",
